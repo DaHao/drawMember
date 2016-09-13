@@ -3,6 +3,7 @@ VENV/
 *.un~
 *.py~
 *.sw
+*.swp
 *.sql~
 *.*~
 
