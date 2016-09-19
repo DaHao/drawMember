@@ -1,0 +1,14 @@
+<!-- templates\index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1>抽出！</h1>
+<p>選擇要被抽出的團體</p>
+    <form action="/draw" method="POST">
+        <label for="group_name">團隊名稱:</label>
+        <input type="RADIO" name="group_name" value="K4">K4
+        <input type="RADIO" name="group_name" value="OW">OW
+        <input type="RADIO" name="group_name" value="ALL" checked>(全)
+        <input type="SUBMIT" value="SUBMIT">
+    </form>
+{% endblock content %}
